@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+.sidebar {
+  /* position: fixed; */
+  background-color: white;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+  padding: 50px;
+}
+
+.sidebar-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar-section {
+  margin-bottom: 20px;
+}
+
+.sidebar-subheading {
+  font-size: 14px;
+  /* font-weight: bold; */
+  margin-bottom: 10px;
+}
+
+.sidebar-options {
+  max-height: 140px;
+  font-size: 14px;
+  overflow-y: auto;
+}
+.sidebar-options::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+.sidebar-options::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.sidebar-option {
+  padding: 10px;
+  /* border-bottom: 1px solid #ccc; */
+  cursor: pointer;
+}
+
+.sidebar-option:last-child {
+  border-bottom: none;
+}

@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '../components/Navbar/Navbar';
 import Banner from '../components/Banner/banner';
 import Footer from '../components/Footer/Footer';
+import Sidebar from '../components/Sidebar';
+import ProductList from '../components/ProductList';
 
 const Home = () => {
   return (
@@ -9,8 +11,8 @@ const Home = () => {
         <Navbar />
         <Banner />
         <div className='main-content'>
-                {/* <Sidebar />
-                <ProductList /> */}
+                <Sidebar />
+                <ProductList />
             </div>
         <Footer />
     </div>

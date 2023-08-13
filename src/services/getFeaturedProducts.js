@@ -1,7 +1,7 @@
-export const getColors = async () => {
+export const getFeaturedProducts = async () => {
     const token = "Ex9yLyRU7wvyxfblpq5HAhfQqUP1vIyo"
     const res = await fetch(
-        "https://api.sheety.co/af35b536915ec576818d468cf2a6505c/reactjsTest/colors",
+        "https://api.sheety.co/af35b536915ec576818d468cf2a6505c/reactjsTest/featured",
         {
             headers: {
                 'Authorization': `Bearer ${token}`,
@@ -10,6 +10,6 @@ export const getColors = async () => {
             method: "GET",
         }
     );
-    const colors = await res.json();
-    return colors
+    const featured_products = await res.json();
+    return featured_products
 }
