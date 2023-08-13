@@ -1,13 +1,12 @@
 .product-list {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .product {
-      width: 32%;
-      margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-  
-  
-  
+.product {
+    width: 32%;
+    margin-bottom: 20px;
+  }
+
+

@@ -1,9 +1,11 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar';
-import Banner from '../components/Banner/banner';
-import Footer from '../components/Footer/Footer';
+import Banner from '../components/Banner';
 import Sidebar from '../components/Sidebar';
+import './Home.css'
 import ProductList from '../components/ProductList';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+
 
 const Home = () => {
   return (
@@ -13,10 +15,13 @@ const Home = () => {
         <div className='main-content'>
                 <Sidebar />
                 <ProductList />
-            </div>
+        </div>
         <Footer />
     </div>
   )
 }
 
 export default Home;
+
+// import React from 'react'
+

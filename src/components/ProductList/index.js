@@ -6,8 +6,6 @@ import Product from '../Product'
 import { getMaterials } from '../../services/getMaterials.js'
 import { getColors } from '../../services/getColors'
 import { getFeaturedProducts } from '../../services/getFeaturedProducts'
-import { Provider } from 'react-redux';
-
 export default function ProductList() {
     const { products } = useSelector((state) => state.products);
     const [featured, SetFeatured] = useState([]);
